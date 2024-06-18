@@ -15,12 +15,14 @@ const App = () => {
 
   const images = [
         "https://image-tc.galaxy.tf/wijpeg-7pqufmqti0twcdzzq3btsb5lq/wat-rong-khun.jpg",
+        "https://tecnogasthai.com/wp-content/uploads/2022/06/pic-1-3.png",
     "https://www.bltbangkok.com/wp-content/uploads/2020/01/%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%97%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A7%E0%B8%88%E0%B8%B5%E0%B8%99_Body.jpg",
     "https://medias.thansettakij.com/uploads/images/md/2024/04/TZPoXw3W0DOiFUIUzdot.webp?x-image-process=style/md-webp",
     "https://static.thairath.co.th/media/dFQROr7oWzulq5Fa5LBRnzy7ZeKQggKkswWgW2a13sx0i6rQtMctJcIRKIB4HIR8X11.jpg",
     "https://static.trueplookpanya.com/cmsblog/1631/65631/thumb_file.jpg",
     "./Banner/Nok-Air-Cabin-Crew.jpg",
     "./Banner/seat.jpg",
+    "https://image.bangkokbiznews.com/uploads/images/md/2022/04/sqkumNh91Y7HZqEdRxvO.webp?x-image-process=style/LG",
 
   ];
 

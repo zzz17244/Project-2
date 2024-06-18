@@ -88,7 +88,7 @@ const BookingForm = () => {
           <label htmlFor="to">目的地</label>
           <input type="text" id="to" name="to" placeholder="选择目的地" list="to-options" />
           <datalist id="to-options">
-          <option value="DMK - 廊曼" />
+                  <option value="DMK - 廊曼" />
                   <option value="CNX - 清迈" />
                   <option value="CEI - 清莱" />
                   <option value="HKT - 普吉" />
