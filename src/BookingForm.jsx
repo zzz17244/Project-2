@@ -73,20 +73,34 @@ const BookingForm = () => {
           <label htmlFor="from">出发地</label>
           <input type="text" id="from" name="from" placeholder="选择出发地" list="from-options" />
           <datalist id="from-options">
-            <option value="HYD - 海得拉巴" />
-            <option value="BLR - 班加罗尔" />
-            <option value="DEL - 德里" />
+          <option value="NNG - 南宁" />
+                <option value="CGO - 郑州" />
+                <option value="CTU - 成都" />
+                <option value="DMK - 曼谷（廊曼）" />
+                <option value="BKK - 曼谷（素万那普）" />
+                <option value="HKT - 普吉" />
+                <option value="CNX - 清迈" />
+                <option value="KBV - 甲米" />
+                <option value="HYD - 海得拉巴" />
           </datalist>
         </div>
         <div className="form-group">
           <label htmlFor="to">目的地</label>
           <input type="text" id="to" name="to" placeholder="选择目的地" list="to-options" />
           <datalist id="to-options">
-            <option value="DMK - 廊曼" />
-            <option value="CNX - 清迈" />
-            <option value="CEI - 清莱" />
-            <option value="HKT - 普吉" />
-            <option value="KBV - 甲米" />
+          <option value="DMK - 廊曼" />
+                  <option value="CNX - 清迈" />
+                  <option value="CEI - 清莱" />
+                  <option value="HKT - 普吉" />
+                  <option value="KBV - 甲米" />
+                  <option value="SIN - 新加坡樟宜" />
+                  <option value="KUL - 吉隆坡国际" />
+                  <option value="RGN - 仰光" />
+                  <option value="JKT - 雅加达苏加诺-哈达" />
+                  <option value="SYD - 悉尼" />
+                  <option value="MEL - 墨尔本" />
+                  <option value="AKL - 奥克兰" />
+                  <option value="HYD - 海得拉巴" />
           </datalist>
         </div>
       </div>
@@ -134,7 +148,7 @@ const BookingForm = () => {
       </div>
       <div className="image-row">
         <div className="promo-item">
-          <p>到清迈 40,000 INR</p>
+          <p>到清迈 400 CNY</p>
           <img
             src="https://assets.airtrfx.com/cdn-cgi/image/height=500,width=800,quality=80,fit=crop,format=auto,opt=true/https://media.jtdwjcwq6f4wp4ce.com/tg/ChiangMai_Thailand.jpg"
             alt="清迈"
@@ -168,7 +182,7 @@ const BookingForm = () => {
           )}
         </div>
         <div className="promo-item">
-          <p>到曼谷 35,000 INR</p>
+          <p>到曼谷 350 CNY</p>
           <img
             src="https://assets.airtrfx.com/media-em/tg/65572ced07a8f_Bangkok_Temple.jpg?height=500&width=800&quality=80&fit=crop&format=auto&opt=true"
             alt="曼谷寺庙"
@@ -202,7 +216,7 @@ const BookingForm = () => {
           )}
         </div>
         <div className="promo-item">
-          <p>到普吉岛 40,000 INR</p>
+          <p>到普吉岛 400 CNY</p>
           <img
             src="https://assets.airtrfx.com/cdn-cgi/image/height=500,width=800,quality=80,fit=crop,format=auto,opt=true/https://media.jtdwjcwq6f4wp4ce.com/tg/Phuket_Thailand.jpg"
             alt="普吉岛"
@@ -236,7 +250,7 @@ const BookingForm = () => {
           )}
         </div>
         <div className="promo-item">
-          <p>到甲米 40,000 INR</p>
+          <p>到甲米 400 CNY</p>
           <img
             src="https://content.r9cdn.net/rimg/dimg/d7/d3/e9304e90-city-44862-164ae46b3a9.jpg?crop=true&width=1020&height=498"
             alt="甲米"

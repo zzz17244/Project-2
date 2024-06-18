@@ -14,13 +14,14 @@ const App = () => {
   const [isSliding, setIsSliding] = useState(false);
 
   const images = [
-        "https://cdn.pixabay.com/photo/2021/10/10/20/33/mehtab-bagh-6698669_1280.jpg",
-    "https://media.istockphoto.com/id/1681951573/th/%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%96%E0%B9%88%E0%B8%B2%E0%B8%A2/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AD%E0%B8%A3%E0%B8%B8%E0%B8%93%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%A7%E0%B8%A3%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%A1%E0%B8%A2%E0%B8%B2%E0%B8%A1%E0%B8%AD%E0%B8%B2%E0%B8%97%E0%B8%B4%E0%B8%95%E0%B8%A2%E0%B9%8C%E0%B8%AD%E0%B8%B1%E0%B8%AA%E0%B8%94%E0%B8%87%E0%B9%83%E0%B8%99%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%AF.jpg?s=1024x1024&w=is&k=20&c=ItF8D9FJ5GvyQiSOJawCs_AKtLrk6swRwInBMWaNS2M=",
-    "https://media.istockphoto.com/id/520086374/th/%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%96%E0%B9%88%E0%B8%B2%E0%B8%A2/%E0%B8%A8%E0%B8%B2%E0%B8%A5%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B9%80%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%87%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E-%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B9%81%E0%B8%81%E0%B9%89%E0%B8%A7.jpg?s=612x612&w=0&k=20&c=wXU9S3x_iKZwuyD0mmDz3iG5oWiT2Qip_goA6RhIem4=",
-    "https://cdn.pixabay.com/photo/2010/11/29/india-294_1280.jpg",
-    "https://cdn.pixabay.com/photo/2017/08/17/11/28/phi-phi-island-2650950_1280.jpg",
+        "https://image-tc.galaxy.tf/wijpeg-7pqufmqti0twcdzzq3btsb5lq/wat-rong-khun.jpg",
+    "https://www.bltbangkok.com/wp-content/uploads/2020/01/%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%97%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A7%E0%B8%88%E0%B8%B5%E0%B8%99_Body.jpg",
+    "https://medias.thansettakij.com/uploads/images/md/2024/04/TZPoXw3W0DOiFUIUzdot.webp?x-image-process=style/md-webp",
+    "https://static.thairath.co.th/media/dFQROr7oWzulq5Fa5LBRnzy7ZeKQggKkswWgW2a13sx0i6rQtMctJcIRKIB4HIR8X11.jpg",
+    "https://static.trueplookpanya.com/cmsblog/1631/65631/thumb_file.jpg",
     "./Banner/Nok-Air-Cabin-Crew.jpg",
     "./Banner/seat.jpg",
+
   ];
 
   useEffect(() => {
@@ -83,7 +84,7 @@ const App = () => {
               onMouseLeave={() => handleSiteDropdownToggle(false)}
             >
               <img
-                src="https://www.shutterstock.com/image-illustration/illustration-tricolor-indian-flag-background-260nw-2343485095.jpg"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/1200px-Flag_of_the_People%27s_Republic_of_China.svg.png"
                 alt="Indian Flag"
                 className="flag-icon"
               />
@@ -98,8 +99,8 @@ const App = () => {
                   </li>
                   <li className="dropdown-item">
                     <img
-                      src="https://www.shutterstock.com/image-illustration/illustration-tricolor-indian-flag-background-260nw-2343485095.jpg"
-                      alt="Indian Flag"
+                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/1200px-Flag_of_the_People%27s_Republic_of_China.svg.png"
+                      alt="China Flag"
                       className="dropdown-image"
                     />
                   </li>

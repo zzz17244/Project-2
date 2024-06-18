@@ -2,17 +2,17 @@ import React, { useState } from "react";
 
 const PromotionList = () => {
   const promotions = [
-    { from: "清迈", destination: "乌隆他尼", price: 2029 },
-    { from: "曼谷（廊曼）", destination: "乌汶", price: 855 },
-    { from: "彭世洛", destination: "曼谷（廊曼）", price: 855 },
-    { from: "曼谷（廊曼）", destination: "乌隆他尼", price: 855 },
-    { from: "曼谷（廊曼）", destination: "清迈", price: 855 },
-    { from: "彭世洛", destination: "曼谷（廊曼）", price: 855 },
-    { from: "曼谷（廊曼）", destination: "乌隆他尼", price: 855 },
-    { from: "曼谷（廊曼）", destination: "清迈", price: 855 },
-    { from: "彭世洛", destination: "曼谷（廊曼）", price: 855 },
-    { from: "曼谷（廊曼）", destination: "乌隆他尼", price: 855 },
-    { from: "曼谷（廊曼）", destination: "清迈", price: 855 },
+    { from: "清迈", destination: "乌隆他尼", price: 4855 },
+    { from: "曼谷（廊曼）", destination: "乌汶", price: 4855 },
+    { from: "彭世洛", destination: "曼谷（廊曼）", price: 4855 },
+    { from: "曼谷（廊曼）", destination: "乌隆他尼", price: 4855 },
+    { from: "曼谷（廊曼）", destination: "清迈", price: 4855 },
+    { from: "彭世洛", destination: "曼谷（廊曼）", price: 4855 },
+    { from: "曼谷（廊曼）", destination: "乌隆他尼", price: 4855 },
+    { from: "曼谷（廊曼）", destination: "清迈", price: 4855 },
+    { from: "彭世洛", destination: "曼谷（廊曼）", price: 4855 },
+    { from: "曼谷（廊曼）", destination: "乌隆他尼", price: 4855 },
+    { from: "曼谷（廊曼）", destination: "清迈", price: 4855 },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
